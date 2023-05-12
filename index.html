@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bat Modas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
     <link href="bat-estilo.css" rel="stylesheet">
 </head>
 <body>
@@ -28,9 +31,49 @@
             <a href="Calçados.html">Calçados</a>
             <a href="Acessorios.html">Acessórios</a>
          </nav>
-         <section>
+         <section class="produto">
             <h1>Camisa do Batman</h1>
+            <div class="container-produto">
+                 <img width="330" src="..//imagens/camisa-batman.jpg" alt="Camisa do batman com logo branco">
+                 <div class="dados-produto">
+                    <p> <span id="preço">R$69,99</span> A vista no batcartão</p>
+                    <p>ou</p>
+                    <table class="batabela">
+                        <tr>
+                            <th>Vezes</th>
+                            <th>Juros</th>
+                            <th>Valor da parcela</th>
+                        </tr>
+                        <tr>
+                            <td>3x</td>
+                            <td>0%</td>
+                            <td>R$23,33</td>
+                        </tr>
+                        <tr>
+                            <td>6x</td>
+                            <td>2%</td>
+                            <td>R$11,78</td>
+                        </tr>
+                        <tr>
+                            <td>12x</td>
+                            <td>4%</td>
+                            <td>R$5,89</td>
+                        </tr>
+                    </table>
+                    <p>Tamanhos: P, M, G, XG , XXG</p>
+                    <p>Ut ac felis augue. Proin in dolor pretium, consequat lorem sed, pulvinar metus. Integer porta lectus elit, non hendrerit est blandit eu. Cras faucibus consectetur consectetur.</p>
+                    <form action="add-carrinho.html?prod=321">
+                        <button type=" submit" id="btn-compra">
+                            <?xml version="1.0" ?><!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 1.1//EN'  'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'><svg height="21.998px" id="Layer_1" style="enable-background:new 0 0 64 21.998;" version="1.1" viewBox="0 0 64 21.998" width="64px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g id="Batman_Logo"><g><path d="M31.94,3.029c0.023,0,0.037,0.003,0.06,0.003s0.036-0.003,0.06-0.003H31.94z M64,0H42.407    c0,0-0.479,3.817-2.812,4.302c-2.332,0.485-5.084,1.516-5.263-0.06c-0.18-1.576-0.599-3.334-0.599-3.334l-0.538,2.304    c0,0-0.349-0.171-1.196-0.18c-0.848,0.009-1.196,0.18-1.196,0.18l-0.539-2.304c0,0-0.418,1.758-0.598,3.334    c-0.179,1.575-2.931,0.545-5.264,0.06C22.07,3.817,21.593,0,21.593,0H0c0,0,13.039,3.999,9.75,12.786c0,0,19.259-2.97,22.25,9.212    c2.99-12.182,22.25-9.212,22.25-9.212C50.961,3.999,64,0,64,0z" style="fill: currentcolor;"/></g></g><g/><g/><g/><g/><g/><g/><g/><g/><g/><g/><g/><g/><g/><g/><g/></svg>
+                            Comprar
+                        </button>
+                    </form> 
+                </div>
+            </div>
          </section>
+         <footer id="rodape">
+            Batmodas - CNPJ 83.684.754/0001-35
+         </footer>
     </div>
     
 </body>
